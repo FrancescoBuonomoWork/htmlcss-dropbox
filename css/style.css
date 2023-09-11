@@ -118,7 +118,7 @@ img {
 .business-plan-card__title{
     font-size: 24px;
     font-weight: 700;
-    padding-bottom: 15px;
+    padding: 15px 0;
 }
 .business-plan-card__price{
     font-size: 14px;

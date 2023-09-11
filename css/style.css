@@ -41,6 +41,9 @@ img {
     justify-content: space-between;
     
 }
+/* CONTENITORE CARD  */
+.container-card
+    
 /* colonne  */
 .col-12 {
 	flex-basis: calc((100% / 12) * 12);
@@ -94,21 +97,28 @@ img {
     margin: 30px 0;
 }
 /* business-plan SEZIONE */
-.business-plan-card{
+/* .business-plan-card{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
+} */
+.business-plan-card{
+    border: 1px solid lightgray;
+    padding: 10px;
 }
 .business-plan-card__header{
     text-align: center;
     margin-bottom: 20px;
-    border: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
     padding: 10px 0;
+    margin: 0 10px;
 }
 
 .business-plan-card__title{
     font-size: 24px;
     font-weight: 700;
+    padding-bottom: 15px;
 }
 .business-plan-card__price{
     font-size: 14px;
@@ -123,13 +133,28 @@ img {
 .business-plan-card__main-info{
     margin: 30px 0;
 }
-.business-plan-card__main-info li {
+/* .business-plan-card__main-info li {
     padding: 10px 0;
+} */
+.business-plan-card__point-list {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 30px;
 }
-
-
+.business-plan-card p,
+.business-plan-card li
+ {
+    margin: 10px 0;
+}
+.button-card {
+    text-align: center;
+    margin: 20px 0;
+}
+.business-plan-card-a{
+   padding: 10px 0;
+}
 
 /* debug */
-.debug .business-plan-card{
+/* .debug .business-plan-card{
     border: 2px solid black;
-}
+} */

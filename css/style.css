@@ -67,11 +67,18 @@ img {
    align-items: center;
    padding-top: 10px;
 }
+
+/* bottone */
 .button {
     background-color: rgba(0, 97, 255, 1);
     color: white;
     padding: 5px 10px;
 }
+/* hero  */
+.hero {
+    background-color: rgba(180, 208, 231, 1);
+}
+
 
 
 /* debug */

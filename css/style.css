@@ -3,6 +3,19 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+ul,
+ol,
+menu {
+    list-style:none; 
+    padding:0;
+}
+a {
+    text-decoration: none; 
+    color: currentcolor;
+}
+img {
+    max-width: 100%;
+}
 /* Container  */
 .container-fluid {
 	max-width: 100%;

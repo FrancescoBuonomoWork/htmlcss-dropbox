@@ -20,6 +20,10 @@ a {
 img {
     max-width: 100%;
 }
+.padding-vertical{
+    padding: 60px 0 30px;
+
+}
 /* Container  */
 .container-fluid {
 	max-width: 100%;
@@ -92,17 +96,17 @@ img {
     font-weight: 700;
     font-size: 76px;
     color: black;
+    padding-top: 50px;
 }
 .hero-p{
     margin: 30px 0;
 }
 /* business-plan SEZIONE */
-/* .business-plan-card{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    
-} */
+.business-plan-title{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
 .business-plan-card{
     border: 1px solid lightgray;
     padding: 10px;

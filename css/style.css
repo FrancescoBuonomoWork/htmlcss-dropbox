@@ -124,8 +124,10 @@ img {
     padding-top: 50px;
 }
 /* Titoli varie sezioni  */
+
 .business-plan-title,
-.section-card-title{
+.section-card-title,
+.intro-customer-section__title{
     font-size: 40px;
     padding-bottom: 30px;
 }
@@ -187,7 +189,8 @@ img {
  /* SECTION IMG + TEXT  */
  /* padding a varie sezioni  */
 .section-img-text,
-.section-card{
+.section-card,
+.intro-customer-section{
     padding-top: 120px;
 }
 .section-img-text__text{

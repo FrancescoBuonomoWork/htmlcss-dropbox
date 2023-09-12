@@ -270,6 +270,9 @@ img {
     padding: 30px;
     
  }
+ .squere-big img {
+    width: 50%;
+ }
  /* rettangolo  */
 .rectangle{
     min-height: 125px;

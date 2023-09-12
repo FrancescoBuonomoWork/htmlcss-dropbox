@@ -44,9 +44,10 @@ img {
     padding: 40px 0;
 
 }
-.flex-align-center{
+.flex-button-card{
     display: flex;
     align-items: center;
+    justify-content: end;
 }
 .display-block{
     display: block;
@@ -170,6 +171,7 @@ img {
 .business-plan-card{
     border: 1px solid lightgray ;
     padding: 20px;
+    margin-bottom: 40px;
 }
 .business-plan-card__header{
     text-align: center;

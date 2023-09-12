@@ -17,6 +17,9 @@
 	--light-gray: #f5f5f5;
 	--light: #ffffff;
 }
+.bordaux-text{
+    color: var(--bordeaux);
+}
 ul,
 ol,
 menu {
@@ -36,6 +39,14 @@ img {
 }
 .padding-bottom{
     padding-bottom: 40px;
+}
+.padding-vertical{
+    padding: 40px 0;
+
+}
+.flex-align-center{
+    display: flex;
+    align-items: center;
 }
 .display-block{
     display: block;
@@ -75,6 +86,9 @@ img {
 
 .col-8 {
 	flex-basis: calc((100% / 12) * 8);
+}
+.col-6 {
+	flex-basis: calc((100% / 12) * 6);
 }
 
 .col-4 {
@@ -143,7 +157,7 @@ img {
 .business-plan {
     padding-top: 50px;
 }
-/* Titoli varie sezioni  */
+/* Titoli varie sezioni H2 */
 
 .business-plan-title,
 .section-card-title,
@@ -227,7 +241,7 @@ img {
 }
  /* Titolo  */
 .section-img-text__title,
-.card-title {
+.card-title{
     font-size: 24px;
     font-weight: 700;
     line-height: 1.2;
@@ -256,12 +270,18 @@ img {
     padding: 30px;
     
  }
- .squere-big .img {
-    /* width: 80%; */
- }
+ /* rettangolo  */
+.rectangle{
+    min-height: 125px;
 
- .squere .img {
+}
+.rectangle-title{
+    font-size: 40px;
+}
+
+ .squere > img {
     display: block;
+    filter: invert(1);
     
  }
  .gray-squere {
@@ -279,7 +299,22 @@ img {
     
 }
 .red-squere{
-    background-color: #ff1c1c;
+    background-color: var(--red)
+}
+.darkred-squere{
+    background-color: var(--dark-red);
+}
+.blu-squere{
+    background-color: var(--blue);
+}
+.darkblu-squere{
+    background-color: var(--dark-blue);
+}
+.lightblue-squere{
+    background-color: var(--light-blue);
+}
+.yellow-squere{
+    background-color: var(--yellow);
 }
 /* debug */
 /* .debug .business-plan-card{

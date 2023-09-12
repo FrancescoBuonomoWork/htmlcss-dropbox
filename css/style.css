@@ -94,6 +94,14 @@ img {
     padding: 5px 10px;
 
 }
+.button-white {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px 10px;
+    opacity: 0.7;
+}
 /* hero  */
 .hero {
     background-color: rgba(180, 208, 231, 1);
@@ -173,6 +181,23 @@ img {
 }
 .business-plan-card-a{
    padding: 10px 0;
+}
+ /* SECTION IMG + TEXT  */
+.section-img-text{
+    padding-top: 120px;
+}
+.section-img-text__text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+}
+ /* Titolo  */
+.section-img-text__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+   
 }
 
 /* debug */

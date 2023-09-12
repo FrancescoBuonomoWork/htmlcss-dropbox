@@ -3,6 +3,20 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+/* variabili css per salvare i colori  */
+:root {
+	--blue: #0061ff;
+	--light-blue: #b4d0e7;
+	--dark-blue: #0d2481;
+	--dark: black;
+	--bordeaux: #61082b;
+	--green: #a2d39b;
+	--yellow: #ffd830;
+	--red: #ff1c1c;
+	--dark-red: #d5001f;
+	--light-gray: #f5f5f5;
+	--light: #ffffff;
+}
 ul,
 ol,
 menu {
@@ -73,6 +87,9 @@ img {
 }
 .row > [class^='col'] {
     padding: 0 25px;
+}
+.squeres-section [class^='col']{
+    padding: 0;
 }
 /* HEADER  */
 
@@ -193,7 +210,8 @@ img {
  /* padding a varie sezioni  */
 .section-img-text,
 .section-card,
-.intro-customer-section{
+.intro-customer-section,
+.squeres-section{
     padding-top: 120px;
 }
 .section-img-text__text{
@@ -224,8 +242,45 @@ img {
 .section-img-text__p{
     line-height: 1.2; 
 }
+ /* sezione a quadrati  */
+ .squere{
+  min-height: 125px;  
+  aspect-ratio: 1 / 1;
+  display: flex;
+  padding: 50px;
+  align-items: center;
+}
+ .squere-big{
+    min-height: 250px;
+    aspect-ratio: 1 / 1;
+    padding: 30px;
+    
+ }
+ .squere-big .img {
+    /* width: 80%; */
+ }
 
-
+ .squere .img {
+    display: block;
+    
+ }
+ .gray-squere {
+    background-color: var(--light-gray);
+ }
+.green-squere{
+    background-color: var(--green);
+    
+}
+.lightblue-squere{
+    background-color: var(--blue);
+}
+.bordaux-squere{
+    background-color: var(--bordeaux);
+    
+}
+.red-squere{
+    background-color: #ff1c1c;
+}
 /* debug */
 /* .debug .business-plan-card{
     border: 2px solid black;

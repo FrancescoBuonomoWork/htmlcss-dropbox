@@ -123,7 +123,9 @@ img {
 .business-plan {
     padding-top: 50px;
 }
-.business-plan-title{
+/* Titoli varie sezioni  */
+.business-plan-title,
+.section-card-title{
     font-size: 40px;
     padding-bottom: 30px;
 }
@@ -183,7 +185,9 @@ img {
    padding: 10px 0;
 }
  /* SECTION IMG + TEXT  */
-.section-img-text{
+ /* padding a varie sezioni  */
+.section-img-text,
+.section-card{
     padding-top: 120px;
 }
 .section-img-text__text{
@@ -192,13 +196,29 @@ img {
     gap: 30px;
     align-items: flex-start;
 }
+/* card  */
+.card {
+    margin-bottom: 40px;
+
+}
  /* Titolo  */
-.section-img-text__title {
+.section-img-text__title,
+.card-title {
     font-size: 24px;
     font-weight: 700;
     line-height: 1.2;
    
 }
+.card-title {
+    margin-bottom: 20px;
+}
+
+/* paragrafi  */
+.card-p,
+.section-img-text__p{
+    line-height: 1.2; 
+}
+
 
 /* debug */
 /* .debug .business-plan-card{

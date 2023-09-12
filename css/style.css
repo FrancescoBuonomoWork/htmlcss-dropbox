@@ -20,9 +20,8 @@ a {
 img {
     max-width: 100%;
 }
-.padding-vertical{
-    padding: 60px 0 30px;
-
+.padding-bottom{
+    padding-bottom: 40px;
 }
 /* Container  */
 .container-fluid {
@@ -30,11 +29,11 @@ img {
 	margin: 0 auto;
 }
 .container {
-	max-width: 1000px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 .container-sm {
-	max-width: 800px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 .row {
@@ -46,7 +45,7 @@ img {
     
 }
 /* CONTENITORE CARD  */
-.container-card
+
     
 /* colonne  */
 .col-12 {
@@ -69,13 +68,17 @@ img {
 	flex-basis: calc((100% / 12) * 2);
 	/* flex-basis: calc((100% * 2) / 12); */
 }
+.row > [class^='col'] {
+    padding: 0 25px;
+}
 /* HEADER  */
 
 .page-header__link-list {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     gap: 10px;
-   align-items: center;
+    align-items: center;
+    font-size: 16px;
 }
 .row-nav {
     height: 60px;
@@ -86,35 +89,46 @@ img {
 .button {
     background-color: rgba(0, 97, 255, 1);
     color: white;
+    display: inline-block;
+    
     padding: 5px 10px;
+
 }
 /* hero  */
 .hero {
     background-color: rgba(180, 208, 231, 1);
+    padding-top: 50px;
 }
 .hero-title {
     font-weight: 700;
     font-size: 76px;
     color: black;
-    padding-top: 50px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    
 }
+
 .hero-p{
     margin: 30px 0;
 }
 /* business-plan SEZIONE */
+.business-plan {
+    padding-top: 50px;
+}
 .business-plan-title{
     font-size: 40px;
     padding-bottom: 30px;
 }
 
+
 .business-plan-card{
-    border: 1px solid lightgray;
+    border: 1px solid lightgray ;
     padding: 10px;
 }
 .business-plan-card__header{
     text-align: center;
     margin-bottom: 20px;
-    border-bottom: 1px solid lightgray;
+    /* border-bottom: 1px solid lightgray; */
     padding: 10px 0;
     margin: 0 10px;
 }

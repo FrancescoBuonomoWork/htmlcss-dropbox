@@ -23,6 +23,9 @@ img {
 .padding-bottom{
     padding-bottom: 40px;
 }
+.display-block{
+    display: block;
+}
 /* Container  */
 .container-fluid {
 	max-width: 100%;

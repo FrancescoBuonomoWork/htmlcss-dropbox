@@ -286,7 +286,7 @@ img {
     padding: 30px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
     
  }
  .squere-big img {
@@ -313,7 +313,7 @@ img {
     width: 48px;
     height: 1px;
     background-color: rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
  .gray-squere {
     background-color: var(--light-gray);

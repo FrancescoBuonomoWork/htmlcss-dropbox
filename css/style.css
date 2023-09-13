@@ -3,6 +3,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+html{
+    font-family: 'DM Sans', sans-serif;
+}
 /* variabili css per salvare i colori  */
 :root {
 	--blue: #0061ff;
@@ -258,7 +261,8 @@ img {
 }
  /* Titolo  */
 .section-img-text__title,
-.card-title{
+.card-title,
+.footer-el-title{
     font-size: 24px;
     font-weight: 700;
     line-height: 1.2;
@@ -370,5 +374,39 @@ img {
     border: 1px solid lightgray;
 }
 
-
-
+/* Footer section */
+.footer-section{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: black;
+    color: white;
+}
+/* .footer-el-title{
+insieme a card title
+} */
+.footer-section .col-12{
+    display: flex;
+  justify-content: space-between;
+}
+/* .footer-element li {
+    font-size: 16px;
+    line-height: 1.2;
+} */
+.footer-el-title{
+    margin-bottom: 20px;
+}
+.footer-el-list{
+    font-size: 16px;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.after::after {
+    content: '';
+    display: block;
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 40px;
+}

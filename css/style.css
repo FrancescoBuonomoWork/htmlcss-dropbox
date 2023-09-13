@@ -284,6 +284,9 @@ img {
     /* min-height: 250px; */
     aspect-ratio: 1 / 1;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     
  }
  .squere-big img {
@@ -304,6 +307,14 @@ img {
     width: 50%;
     
  }
+.squere-big__p::before {
+    content: '';
+    display: block;
+    width: 48px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
  .gray-squere {
     background-color: var(--light-gray);
  }

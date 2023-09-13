@@ -128,7 +128,7 @@ img {
     background-color: rgba(0, 97, 255, 1);
     color: white;
     display: inline-block;
-    
+    white-space: nowrap;
     padding: 5px 10px;
 
 }
@@ -273,14 +273,15 @@ img {
 }
  /* sezione a quadrati  */
  .squere{
-  min-height: 125px;  
+  /* min-height: 125px;   */
   aspect-ratio: 1 / 1;
   display: flex;
-  padding: 50px;
+  /* padding: 50px; */
   align-items: center;
+  justify-content: center;
 }
  .squere-big{
-    min-height: 250px;
+    /* min-height: 250px; */
     aspect-ratio: 1 / 1;
     padding: 30px;
     
@@ -300,6 +301,7 @@ img {
  .squere > img {
     display: block;
     filter: invert(1);
+    width: 50%;
     
  }
  .gray-squere {
